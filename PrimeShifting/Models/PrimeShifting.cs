@@ -1,11 +1,14 @@
+using System.Collections.Generic;
+
 namespace PrimeShifting.Models
 {
   public class NumberList
   {
-    public int Input { get; set; }
+    public List<int> InputNumberList { get; set; }
     public NumberList(int input)
     {
-      Input = input;
+      InputNumberList = new List<int>() {input};
+      List<int> inputNumberList = InputNumberList;
     }
   }
 }
