@@ -8,6 +8,12 @@ namespace PrimeShifting.Models
     public NumberList(int input)
     {
       InputNumberList = new List<int>() {input};
+      int i = 2;
+      while (i < input )
+      {
+        InputNumberList.Add(i);
+        i ++;
+      }
     }
   }
 }
