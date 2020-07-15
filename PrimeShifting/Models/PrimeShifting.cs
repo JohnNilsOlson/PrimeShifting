@@ -8,7 +8,6 @@ namespace PrimeShifting.Models
     public NumberList(int input)
     {
       InputNumberList = new List<int>() {input};
-      List<int> inputNumberList = InputNumberList;
     }
   }
 }
